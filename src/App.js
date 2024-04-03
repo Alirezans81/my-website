@@ -1,23 +1,52 @@
-import logo from './logo.svg';
-import './App.css';
+import ProfileCard from "./components/ProfileCard";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-[100vw] h-[100dvh] bg-power__black overflow-hidden">
+      <div className="w-full h-full px-14 overflow-auto flex justify-between">
+        <div className="">
+          <div className="absolute top-0 h-[100dvh] flex flex-col justify-center">
+            <ProfileCard />
+          </div>
+        </div>
+        <div className="bg-green-500">
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+        </div>
+        <div className="bg-gray-500">c</div>
+      </div>
     </div>
   );
 }
